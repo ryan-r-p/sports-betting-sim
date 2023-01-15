@@ -73,5 +73,3 @@ rr_calc = blog.round_robin_calculate(rrdb, b1.bet_id)
 bdb = blog.apply_round_robin_winnings(bdb, b1.bet_id, rr_calc[0], rr_calc[1])
 
 b = blog.set_bet_id(bdb)
-
-print(1)

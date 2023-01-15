@@ -17,7 +17,7 @@ _________________________________________________
 
 #### Constraints:
 
-##### Always tandem upload information to DB and objects
+*Always tandem upload information to DB and objects*
 
 -Bet Types: Straight Bet, Round Robin, Parlay
 
@@ -29,14 +29,15 @@ ________________________________________________
 
 TODO:
 
-       1. Create a way to load attribute data into an object from the database
-       2. Populate the leg objects with information from the Odds API after performing some sort of selection of upcoming
+       
+     1. Populate the leg objects with information from the Odds API after performing some sort of selection of upcoming
           games to bet, preferably from multiple leagues at once
                 i. Could be accomplished through the use of a "current game" object, e.g. once a game is selected it can
                     be placed within an object for further use
                 ii. UI or text-based UI needed to actually select the game from the list, preferably with a combination
                     of straight, points, and over/under combinations
-       3. Create a way to enter a custom leg - the Odds API is not all-encompassing (especially for player stats),
+     2. Create a way to enter a custom leg - the Odds API is not all-encompassing (especially for player stats),
           and I don't really care what people bet on.
                 i. UI tool or text-based entry for creation of custom legs
                 ii. Will require a manual entry for outcomes
+     3. Create a way to load attribute data into an object from the database
