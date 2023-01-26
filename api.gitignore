@@ -1,1 +1,2 @@
+# Ignore all evironment variables, where the api_key is stored
 *.env
